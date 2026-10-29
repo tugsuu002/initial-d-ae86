@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Volume2, VolumeX, Music, Globe, Play, Pause, SkipForward, Disc, Download } from 'lucide-react';
+import { Volume2, VolumeX, Music, Globe, Play, Pause, SkipForward, Disc } from 'lucide-react';
 import { audioEngine, TrackInfo, INITIAL_D_TRACKS } from '../utils/audioEngine';
 
 interface HeaderProps {
@@ -145,17 +145,6 @@ export const Header: React.FC<HeaderProps> = ({
           >
             {muted ? <VolumeX className="w-4 h-4 text-rose-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
           </button>
-
-          {/* Download Local Project ZIP */}
-          <a
-            href="/initial-d-ae86-jdm-project.zip"
-            download="initial-d-ae86-jdm-project.zip"
-            className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-semibold text-white bg-red-600 hover:bg-red-500 rounded-lg transition-colors shadow-md shadow-red-600/20 whitespace-nowrap"
-            title="Төслийг ZIP хэлбэрээр татах / Download Project ZIP"
-          >
-            <Download className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">{lang === 'mn' ? 'Татах' : 'ZIP'}</span>
-          </a>
 
           {/* Language toggle */}
           <button
