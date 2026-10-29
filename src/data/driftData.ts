@@ -36,7 +36,7 @@ export const DRIFT_IMAGES: DriftImage[] = [
     gear: 3,
     driftAngleDeg: 46,
     gForce: 1.28,
-    src: '/src/assets/images/ae86_drift_akina_hairpin_1793245500325.jpg',
+    src: '/images/ae86_drift_akina_hairpin_1793245500325.jpg',
     aspect: '16:9',
     tags: ['Hairpin', 'Touge', 'Night Drift', 'Panda Trueno', 'Fujiwara Tofu']
   },
@@ -56,7 +56,7 @@ export const DRIFT_IMAGES: DriftImage[] = [
     gear: 4,
     driftAngleDeg: 38,
     gForce: 1.42,
-    src: '/src/assets/images/ae86_drift_gutter_run_1793245500458.jpg',
+    src: '/images/ae86_drift_gutter_run_1793245500458.jpg',
     aspect: '16:9',
     tags: ['Gutter Run', 'Mizo-Otoshi', 'Touge Attack', 'Twilight']
   },
@@ -76,7 +76,7 @@ export const DRIFT_IMAGES: DriftImage[] = [
     gear: 3,
     driftAngleDeg: 52,
     gForce: 1.34,
-    src: '/src/assets/images/ae86_drift_night_battle_1793245502789.jpg',
+    src: '/images/ae86_drift_night_battle_1793245502789.jpg',
     aspect: '4:3',
     tags: ['Touge Battle', 'AE86 vs R32', 'Night Rain', 'Downhill Special']
   },
@@ -96,7 +96,7 @@ export const DRIFT_IMAGES: DriftImage[] = [
     gear: 3,
     driftAngleDeg: 28,
     gForce: 0.95,
-    src: '/src/assets/images/ae86_cockpit_drift_water_1793245502078.jpg',
+    src: '/images/ae86_cockpit_drift_water_1793245502078.jpg',
     aspect: '16:9',
     tags: ['Cockpit', 'Water Cup', '11000 RPM Gauge', 'Interior POV']
   }
