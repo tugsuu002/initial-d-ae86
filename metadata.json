@@ -1,0 +1,6 @@
+{
+  "name": "Initial D AE86 Drift Experience",
+  "description": "High-fidelity Initial D Toyota AE86 Panda Trueno drift gallery, 11,000 RPM tachometer simulator, Touge physics, and wallpaper downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
